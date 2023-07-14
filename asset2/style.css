@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --back--color: #F5F5F5;
+    --top--back: #3F2305;
+}
+
+* {
+    margin: 0;
+    padding: 0 !important;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--back--color);
+}
+
+.container {
+    position: relative;
+    width: 20cm;
+    height: 28.7cm;
+    max-width: 950px !important;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+
+.header-left {
+    margin-bottom: 1.2rem;
+}
+
+.inline-left {
+    margin-left: 2rem;
+    padding-left: 2rem !important;
+
+}
+
+.inline-left .line {
+    width: 250px;
+    border: 1px solid var(--back--color);
+    margin-bottom: 1rem;
+
+}
+
+.inline-left h4 {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.inline-left p {
+    font-size: 0.7rem;
+
+}
+
+.contact-info,
+.profe-info {
+    margin-bottom: 3rem;
+}
+
+.text-font {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+}
+
+.text-font small {
+    font-size: 1.5rem;
+}
+
+.right-cont {
+    display: grid;
+    grid-template-columns: 3fr 0.5fr;
+    margin-bottom: 1rem;
+}
+
+.edu-info {
+
+    font-weight: bold;
+}
+
+.custom-cont {
+    font-size: px;
+    margin-bottom: 0;
+}
+
+.right-cont2 {
+    display: grid;
+    grid-template-columns: 2fr 0.8fr;
+}
+
+.proj-cont {
+    text-align: justify;
+}
+
+.add-info {
+    margin-bottom: 1.5rem;
+}
+
+svg {
+
+    width: 0.5rem;
+}
+
+.cert-info {
+    margin-left: 1rem;
+
+}
