@@ -23,7 +23,7 @@ body {
 
 .container1 {
     position: relative;
-    width: 20cm;
+    width: 21cm;
     max-width: 950px !important;
     min-height: 1000px;
     background: #fff;
@@ -101,6 +101,7 @@ body {
     display: grid;
     grid-template-columns: 2fr 0.8fr;
     gap: 0.7rem;
+    margin-bottom: 1rem;
 }
 
 .proj-cont {
@@ -188,13 +189,11 @@ svg {
         padding: 7px 0 !important;
     }
 
-    .edu-info {
-        font-size: 0.9rem;
-    }
-
+    .edu-info,
     .custom-cont {
         font-size: 0.9rem;
     }
+
 
     .right-cont2 {
         margin-bottom: 0;
@@ -214,7 +213,7 @@ svg {
     }
 }
 
-@media (min-width:400px) and (max-width:616px) {
+@media (min-width:558px) and (max-width:616px) {
     .container1 {
         margin: 0 !important;
     }
@@ -297,5 +296,235 @@ svg {
     .cert-info {
         font-size: 0.8rem;
 
+    }
+}
+
+@media (min-width:481px) and (max-width:557px) {
+    .container1 {
+        min-height: 945px;
+    }
+
+    .inline-left {
+        margin-left: 0.9rem;
+        padding-left: 0.9rem !important;
+    }
+
+    .inline-left h4 {
+        gap: 0.5em;
+    }
+
+    .inline-left #cc-info {
+        font-size: 0.6rem;
+    }
+
+    .inline-left .ps-4 {
+        padding-left: 10px !important;
+    }
+
+    .inline-left #cc-info2 {
+        font-size: 0.5rem;
+    }
+
+    .inline-left p {
+        font-size: 0.6rem;
+    }
+
+    .text-font,
+    .text-font small {
+        font-size: 20px;
+    }
+
+    .proj-cont {
+        font-size: 0.8rem;
+    }
+
+    .proj-cont.pb-2 {
+        padding-bottom: 0px !important;
+    }
+
+    .heading1 {
+        font-size: 18px !important;
+    }
+
+    .edu-info {
+        font-size: small;
+    }
+
+    .custom-cont {
+        font-size: 0.8rem;
+    }
+
+    #small {
+        font-size: 0.7rem;
+    }
+
+    #nopadd {
+        margin-bottom: 0;
+    }
+
+    #nopadd2 {
+        margin-bottom: 0.5rem !important;
+    }
+
+    #padd1 {
+        padding: 10px 10px !important;
+    }
+
+    .add-info {
+        margin-bottom: 1rem;
+        line-height: 1rem;
+    }
+
+    svg {
+        width: 0.3rem;
+    }
+
+    .cert-info {
+        font-size: 0.7rem;
+        margin-left: 0.5rem;
+    }
+
+    .right-cont {
+        margin-bottom: 0.5rem;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width:480px) {
+    .inline-left {
+        margin-left: 0.7rem;
+        padding-left: 0.8rem !important;
+    }
+
+    .inline-left h4 {
+        font-size: 14px;
+        gap: 0.4em;
+    }
+
+    .inline-left #cc-info2 {
+        font-size: 0.5rem;
+    }
+
+    .inline-left .ps-4 {
+        padding-left: 10px !important;
+    }
+
+    .text-font,
+    .text-font small {
+        font-size: 18px;
+    }
+
+    .proj-cont {
+        font-size: 0.8rem;
+    }
+
+    .proj-cont.pb-2 {
+        padding-bottom: 0px !important;
+    }
+
+    #nopadd2 {
+        margin-bottom: 0.3rem !important;
+    }
+
+    .text-font {
+        margin-bottom: 0;
+    }
+
+    .heading1 {
+        font-size: 16px !important;
+
+    }
+
+    .hr1 {
+        margin-top: 2px !important;
+    }
+
+    .edu-info {
+        font-size: 0.8rem;
+    }
+
+    .custom-cont {
+        font-size: 0.7rem;
+    }
+
+    #small {
+        font-size: 0.6rem;
+    }
+
+    .right-cont2 {
+        line-height: 1rem;
+        margin-bottom: 0.2rem;
+    }
+
+
+    .add-info {
+        margin-bottom: 1rem;
+        line-height: 1rem;
+    }
+
+    svg {
+        width: 0.3rem;
+    }
+
+    .cert-info {
+        font-size: 0.7rem;
+        margin-left: 0.5rem;
+    }
+
+    .right-cont {
+        margin-bottom: 0.5rem;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width:400px) {
+    .inline-left {
+        margin-left: 0.6rem;
+        padding-left: 0.7rem !important;
+    }
+
+    .inline-left h4 {
+        font-size: 13px;
+    }
+
+    .inline-left p {
+        font-size: 0.6rem;
+    }
+
+    .inline-left .ps-4 {
+        padding-left: 9px !important;
+    }
+
+    #padd1 {
+        padding: 11px 10px !important;
+    }
+
+    .text-font,
+    .text-font small {
+        font-size: 17px;
+    }
+
+    .proj-cont {
+        font-size: 0.7rem;
+    }
+
+    #nopadd2 {
+        margin-bottom: 0.4rem !important;
+    }
+
+    .edu-info {
+        font-size: 0.7rem;
+    }
+
+    .custom-cont {
+        font-size: 0.6rem;
+    }
+
+    #small {
+        font-size: 9px;
+    }
+
+    .right-cont2 {
+        margin-bottom: 0.3rem;
     }
 }
